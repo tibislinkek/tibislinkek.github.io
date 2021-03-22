@@ -118,10 +118,6 @@
 
 .contact__links-container { height: 150px }
 
-.game__links-container { height: 120px }
-
-.game__info { margin-top: 15px }
-
 .contact__link, .game__links { font-size: 16px }
 
 
@@ -132,9 +128,10 @@
 
 .feedback__p { font-size: 13px }
 
-.feedback__btn {
-  margin: 15px 20%;
-  width: 60%;
+.feedback__btn, .feedback__btn:active {
+  background: var(--primary-color) !important;
+  margin:     15px 20%;
+  width:      60%;
 }
 
 

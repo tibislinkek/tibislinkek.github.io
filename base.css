@@ -26,10 +26,10 @@
 \*------------------------------------*/
 
 :root {
-  --primary-color:        purple;
+  --primary-color:        darkred;
   --primary-text-color:   white;
 
-  --secondary-color:      lightgrey;
+  --secondary-color:      #ffcccc;
   --secondary-text-color: black;
 }
 
