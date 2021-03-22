@@ -1,0 +1,77 @@
+/**
+* This file contains:
+*
+* Global dark mode colors
+* Components
+*/
+
+
+
+
+
+/*------------------------------------*\
+  #GLOBAL DARK MODE COLORS
+\*------------------------------------*/
+
+:root {
+  --primary-dark-color:       grey;
+  --primary-dark-text-color:  white;
+
+  --secondary-dark-color:     black;
+  --secondary-dark-text-color:white;
+}
+
+
+
+
+
+/*------------------------------------*\
+  #COMPONENTS
+\*------------------------------------*/
+body {
+  background:   var(--secondary-dark-color);
+  color:        var(--secondary-dark-text-color);
+}
+
+.header {
+  background:   var(--primary-dark-color);
+  color:        var(--primary-dark-text-color);
+}
+
+.header__menu__item {
+  background:   var(--primary-dark-color);
+  color:        var(--primary-dark-text-color);
+  border-color: black;
+}
+
+.colorful {
+  background:   var(--secondary-dark-color);
+  color:        var(--secondary-dark-text-color);
+}
+
+.contact__link {
+  color:        var(--secondary-dark-text-color)
+}
+
+.feedback__textarea {
+  background:   var(--secondary-dark-color)
+}
+
+.btn-info, .btn-info:hover, .btn-info:active {
+  background:   var(--primary-dark-color) !important;
+  border-color: var(--primary-dark-color) !important;
+}
+
+.btn-default, .btn-default:hover, .btn-default:active {
+  background:   transparent !important;
+  color:        var(--secondary-dark-text-color) !important;
+}
+
+.table__link {
+  color:        var(--primary-dark-color);
+}
+
+.footer {
+  background:   var(--primary-dark-color);
+  color:        var(--primary-dark-text-color);
+}

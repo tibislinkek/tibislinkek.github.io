@@ -1,0 +1,129 @@
+/**
+* STYLE SHEETS:
+*
+* base.css
+* components.css
+*/
+
+
+/**
+* CONTENT:
+*
+* variables (global colors)
+* box-sizing
+* global-values
+* helpers
+* header
+* footer
+*/
+
+
+
+
+
+/*------------------------------------*\
+  #VARIABLES
+\*------------------------------------*/
+
+:root {
+  --primary-color:        purple;
+  --primary-text-color:   white;
+
+  --secondary-color:      lightgrey;
+  --secondary-text-color: black;
+}
+
+
+
+
+
+/*------------------------------------*\
+  #BOX-SIZING
+\*------------------------------------*/
+
+* { box-sizing: border-box }
+
+
+
+
+
+/*------------------------------------*\
+  #GLOBAL VALUES
+\*------------------------------------*/
+
+p { font-size: 16px}
+
+main .fa-instagram-square { color: magenta}
+
+main .fa-discord { color: blue }
+
+main .fa-youtube-square { color: red }
+
+details a { display: block; }
+
+
+
+
+
+/*------------------------------------*\
+  #HELPERS
+\*------------------------------------*/
+
+.table { display: table }
+
+.table-cell {
+  display:        table-cell;
+  vertical-align: middle
+}
+
+.flex-space-between {
+  display:          flex;
+  justify-content:  space-between;
+  align-items:      center
+}
+
+.flex-centered {
+  display:          flex;
+  justify-content:  center
+}
+
+.column {
+  display:          flex;
+  flex-direction:   column;
+}
+
+.auto-margin { margin: auto }
+
+@media (max-width: 767px) {
+  .phone-display-none { display: none }
+}
+
+.inline-block { display: inline-block }
+
+.block { display: block }
+
+.centered { text-align: center }
+
+.container-padding {
+  padding-top:    5px;
+  padding-bottom: 20px
+}
+
+@media (min-width: 1024px ) {
+  .container-padding {
+    padding:      40px;
+    padding-top:  5px
+  }
+}
+
+@media (min-width: 768px) {
+  .float-right { float: right }
+}
+
+
+@media (max-width: 767px) {
+  .colorful {
+    background: var(--secondary-color);
+    color:      var(--secondary-text-color)
+  }
+}
